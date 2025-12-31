@@ -46,7 +46,7 @@
     width: 75%;
     height: 370px;
     margin: 30px auto;
-    background-image: url("Bumbu\ Dapur\ Masakan\ Indonesia\,\ Incaran\ Dunia__\ \(1\).jpg");
+    background-image: url("images/Bumbu\ Dapur\ Masakan\ Indonesia\,\ Incaran\ Dunia__\ \(1\).jpg");
     background-size: cover;
     background-position: center;
 
@@ -69,7 +69,7 @@
     height: 400px;
     margin: 30px auto;
 
-    background-image: url("makan\ 2.jpg");
+    background-image: url("images/makan\ 2.jpg");
     background-size: cover;
     background-position: center;
 
@@ -107,7 +107,7 @@
 }
 
 .banner {
-    background-image: url("makan.jpg");
+    background-image: url("images/makan.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
