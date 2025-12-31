@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<!--menu-->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+<!--menu-->
+
+<!--content-->
+<div class="container">
+    <p class="contact-text">
+        Jika ada yang ingin ditanyakan tentang kuliner nusantara atau
+        rekomendasi makanan khas daerah ketika kalian ingin atau sedang
+        liburan di pulau Indonesia, boleh banget tanyakan kepada kami di bawah ini.
+    </p>
+</div>
+<div class="container">
+    <form method="post" action="">
+    <table class="form-table">
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Contact Us</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Nama</td>
+            <td>
+                <input type="text" name="nama" placeholder="Masukkan nama anda" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="text" name="email" placeholder="Masukkan email aktif" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Asal kota / daerah / negara</td>
+            <td>
+                <input type="text" name="kota" placeholder="Dari mana asalmu" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Topik pertanyaan</td>
+            <td>
+               <select name="topik">
+                <option>-- Pilih Topik --</option>
+                <option>Rekomendasi makanan khas daerah</option>
+                <option>Informasi kuliner nusantara</option>
+                <option>Liburan & kuliner daerah</option>
+                <option>Lainnya</option>
+            </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <input type="radio" name="jenis_kelamin" value="laki-laki" required> Laki-laki
+                <input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan
+                <input type="radio" name="jenis_kelamin" value="lain"> Lainnya
+            </td>
+        </tr>
+
+         <tr>
+            <td>pesan / pertanyaan</td>
+            <td>
+              <textarea rows="4" placeholder="Tulis pertanyaan atau pesan kamu di sini"></textarea>
+            </td>
+        </tr>
+        
+        <tr>
+             <td>penting untuk kami</td>
+            <td>
+        <input type="checkbox"> Saya tertarik dengan kuliner nusantara
+        </td>
+        </tr>
+
+        <tr>
+            <td>Upload File</td>
+            <td>
+                <input type="file" name="file" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+<!--content-->
+
+<!--banner-->
+<div class="about-gallery">
+    <img src="images/pawon.jpg" alt="pawon">
+    <img src="images/papua 2.jpg" alt="papua">
+    <img src="images/Pasar Terapung, Kalimantan Selatan.jpg" alt="Pasar apung">
+</div>
+<!--banner-->
+
+<!--footer-->
+<footer>
+    <p> &copy; CopyRight - [AZZAHRA AULIA] 251011700118 [01SIFP002]</p>
+</footer>
+<!--footer-->
+
+</body>
+</html>
